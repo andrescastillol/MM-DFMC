@@ -19,3 +19,10 @@ The meta-mesh approach takes advantage of this breakdown with the realization th
 <p align="center">
   <img width="500" src="Images/Fig3.jpg">
 </p>
+
+This can be effectively accomplished by introducing a new logical bypass span between the anchor nodes of the chain and route express flow lightpaths onto this logical bypass span. The bypass span’s physical route would be identical to the chain’s constituent spans and would share a common cause of failure with each of those spans. When one of the chain’s spans fails, so too does the bypass span, thereby requiring restoration of the local flow working capacity on the failed span and the express flow working capacity on the bypass span. From the perspective of the traffic that fully transits chains, no chains exist (and as a consequence, neither do the degree-2 nodes within them), replaced by their associated bypass spans, so the effective connectivity of the network becomes much higher. This so-called meta-mesh of network topology, where each chain is replaced by a bypass span connecting its end nodes, is a homeomorphism of the original network topology. Such a meta-mesh topology is illustrated in Figure 4b, which derived from the original network topology shown in Figure 4a. At this level of abstraction, only the degree-3+ nodes from the original network exist, with all chains of degree-2 nodes replaced by bypass spans. The result is a network with much fewer spans and nodes, but most importantly, one with a significantly higher average nodal degree. A simple application of the 1⁄((d ̅-1) ) lower bound on redundancy suggests that the potential of efficiency of the network increases substantially. The lower bound of spare capacity redundancy of the original network in Figure 1 is 73%, while the lower bound of the meta-mesh network in Figure 5 is 45%.
+
+<p align="center">
+  <img width="1000" src="Images/Fig4.jpg">
+</p>
+
