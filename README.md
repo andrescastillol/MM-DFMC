@@ -26,3 +26,10 @@ This can be effectively accomplished by introducing a new logical bypass span be
   <img width="1000" src="Images/Fig4.jpg">
 </p>
 
+## Experimental Networks
+We base our experiments in a set of 124 test-case network topologies.
+
+<p align="center">
+  <img width="1000" src="Images/Fig5.jpg">
+</p>
+
